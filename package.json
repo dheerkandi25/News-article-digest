@@ -1,0 +1,37 @@
+{
+  "name": "news-article-digest",
+  "version": "0.1.0",
+  "description": "Personal RSS digest with local semantic filtering and AI metadata ranking",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/dheerkandi25/News-article-digest",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dheerkandi25/News-article-digest.git"
+  },
+  "engines": {
+    "node": ">=22.9"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env app.js run",
+    "collect": "node --env-file-if-exists=.env app.js collect",
+    "send": "node --env-file-if-exists=.env app.js send",
+    "dry-run": "DRY_RUN=1 node --env-file-if-exists=.env app.js send",
+    "test": "node --test",
+    "news:preview": "node --env-file-if-exists=.env news.js",
+    "news:demo": "node news.js --fixture",
+    "news:send": "node --env-file-if-exists=.env news.js --send"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.1",
+    "nodemailer": "^10.2.0",
+    "rss-parser": "^3.13.0"
+  },
+  "keywords": [
+    "dev.to",
+    "digest",
+    "newsletter",
+    "mistral",
+    "open-source-ai"
+  ]
+}

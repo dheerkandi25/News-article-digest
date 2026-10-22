@@ -1,0 +1,53 @@
+{
+  "interests": [
+    "Agentic AI and AI agents",
+    "AI models and research",
+    "Backend engineering and system design",
+    "Cloud DevOps and AI infrastructure"
+  ],
+  "interestTags": [
+    "ai",
+    "agents",
+    "machine-learning",
+    "backend",
+    "nodejs",
+    "system-design",
+    "cloud",
+    "devops",
+    "infrastructure"
+  ],
+  "instructions": "Prefer practical technical explanations, original releases, and useful project ideas. Explain relevance to AI/backend engineering.",
+  "frequency": "weekly",
+  "sendDay": 1,
+  "lookbackDays": 7,
+  "maxArticles": 10,
+  "engagement": {
+    "views": 1000,
+    "comments": 10,
+    "likes": 500
+  },
+  "embedding": {
+    "model": "Xenova/all-MiniLM-L6-v2",
+    "threshold": 0.35
+  },
+  "llm": {
+    "baseUrl": "https://api.mistral.ai/v1",
+    "model": "mistral-small-latest"
+  },
+  "sources": [
+    {
+      "name": "DEV",
+      "url": "https://dev.to/feed"
+    },
+    {
+      "name": "GitHub Blog",
+      "url": "https://github.blog/feed/"
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml"
+    }
+  ],
+  "engagementMode": "soft",
+  "maxAICandidates": 100
+}

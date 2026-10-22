@@ -1,0 +1,64 @@
+[
+  {
+    "id": "0a3f1804208f948dec8c214a70fb302fa5e9f1fe40556baf4ea5b61831baa3cd",
+    "url": "https://example.org/AI agent workflows",
+    "title": "AI agent workflows",
+    "description": "A demonstration article about AI agents and backend engineering.",
+    "publishedAt": "2026-10-22T01:53:09.657Z",
+    "source": "Fixture",
+    "tags": [
+      "ai"
+    ],
+    "engagement": {
+      "views": null,
+      "comments": null,
+      "likes": null
+    }
+  },
+  {
+    "id": "e155b42c7ed5b003a5ad1240fd46b7abf05ac8d521b5c7f2bc0dd40bb432cacd",
+    "url": "https://example.org/Backend latency improvements",
+    "title": "Backend latency improvements",
+    "description": "A demonstration article about AI agents and backend engineering.",
+    "publishedAt": "2026-10-22T01:53:09.657Z",
+    "source": "Fixture",
+    "tags": [],
+    "engagement": {
+      "views": null,
+      "comments": null,
+      "likes": null
+    }
+  },
+  {
+    "id": "13a8958ce63c1920ebdf36cda15e328be0c467586620d37da5591935a5a62e44",
+    "url": "https://example.org/Unrelated gardening",
+    "title": "Unrelated gardening",
+    "description": "A demonstration article about AI agents and backend engineering.",
+    "publishedAt": "2026-10-22T01:53:09.657Z",
+    "source": "Fixture",
+    "tags": [
+      "gardening"
+    ],
+    "engagement": {
+      "views": null,
+      "comments": null,
+      "likes": null
+    }
+  },
+  {
+    "id": "6506a706f8858e4d0214ac07d5794602c12cef0daf0c14beddae9d9d632a96e2",
+    "url": "https://example.org/Below threshold",
+    "title": "Below threshold",
+    "description": "A demonstration article about AI agents and backend engineering.",
+    "publishedAt": "2026-10-22T01:53:09.657Z",
+    "source": "Fixture",
+    "tags": [
+      "ai"
+    ],
+    "engagement": {
+      "views": null,
+      "comments": null,
+      "likes": 4
+    }
+  }
+]
