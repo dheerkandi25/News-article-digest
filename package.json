@@ -1,7 +1,7 @@
 {
   "name": "news-article-digest",
   "version": "0.1.0",
-  "description": "Personal RSS digest with local semantic filtering and AI metadata ranking",
+  "description": "Personal RSS digest ranked by local semantic similarity, with optional AI previews",
   "type": "module",
   "license": "MIT",
   "homepage": "https://github.com/dheerkandi25/News-article-digest",
